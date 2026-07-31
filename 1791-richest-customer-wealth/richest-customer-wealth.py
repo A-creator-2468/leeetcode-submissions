@@ -5,8 +5,8 @@ class Solution:
             sm=0
             for j in range(len(accounts[i])):
                 sm+=accounts[i][j]
-                if sm>mx:
-                    mx=sm
+            if sm>mx:
+                mx=sm
         return mx            
                   
                 
