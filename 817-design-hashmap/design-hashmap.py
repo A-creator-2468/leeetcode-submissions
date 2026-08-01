@@ -20,8 +20,3 @@ class MyHashMap:
         for i in range(len(self.arr)):
             if self.arr[i][0]==key:
                 return self.arr.pop(i)
-# Your MyHashMap object will be instantiated and called as such:
-# obj = MyHashMap()
-# obj.put(key,value)
-# param_2 = obj.get(key)
-# obj.remove(key)
