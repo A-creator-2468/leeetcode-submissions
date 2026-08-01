@@ -19,8 +19,8 @@ class MyHashMap:
     def remove(self, key: int) -> None:
         for i in range(len(self.arr)):
             if self.arr[i][0]==key:
-                self.arr.pop(i)
-                return
+                return self.arr.pop(i)
+               
         
        
           
