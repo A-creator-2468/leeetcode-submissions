@@ -8,10 +8,7 @@ class Solution:
                 count_zeros+=1
             while count_zeros>k:
                 if nums[left]==0:
-                    count_zeros-=1
+                    count_zeros-=1    
                 left+=1
             max_length=max(max_length,i-left+1)
         return max_length            
-
-
-
