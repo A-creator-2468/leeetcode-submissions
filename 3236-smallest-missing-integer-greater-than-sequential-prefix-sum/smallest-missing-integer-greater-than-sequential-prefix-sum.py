@@ -10,7 +10,7 @@ class Solution:
         
         numss=set(nums)
         cand=prefixsm
-        while cand in nums:
+        while cand in numss:
             cand+=1
         return cand            
 
