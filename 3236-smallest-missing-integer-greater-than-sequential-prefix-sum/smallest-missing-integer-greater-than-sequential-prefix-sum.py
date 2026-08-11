@@ -7,6 +7,8 @@ class Solution:
                 prefixsm+=nums[i]
             else:
                 break
+        
+        numss=set(nums)
         cand=prefixsm
         while cand in nums:
             cand+=1
