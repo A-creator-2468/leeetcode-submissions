@@ -9,7 +9,7 @@ class Solution:
                 nums[j]=nums[i]
                 j+=1
         for k in range(j,len(nums)):
-            nums[k]=0    
+            nums[k]=0   
 
             
 
